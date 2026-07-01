@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "BlockBerthold";
+    src: url(./assets/BlockBertholdTextured.1c1d53ef.woff);
+}
+body{
+  font-family: BlockBerthold;
+  background-color: #F8F6F3;
+}
