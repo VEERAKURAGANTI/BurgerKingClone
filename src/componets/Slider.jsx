@@ -5,7 +5,7 @@ import './Slider.css';
 
 import 'swiper/css/navigation';   // optional: navigation arrows
 import 'swiper/css/pagination';   // optional: pagination dots
-
+ 
 import Slide1 from "../assets/slides/banner1.png";
 import Slide2 from "../assets/slides/banner2.png";
 import Slide3 from "../assets/slides/banner3.png";
