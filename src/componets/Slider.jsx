@@ -6,10 +6,10 @@ import './Slider.css';
 import 'swiper/css/navigation';   // optional: navigation arrows
 import 'swiper/css/pagination';   // optional: pagination dots
 
-import Slide1 from "../assets/slides/banner2.png";
-import Slide2 from "../assets/slides/slide2.jpg";
-import Slide3 from "../assets/slides/slide3.jpg";
-import Slide4 from "../assets/slides/slide4.jpg";
+import Slide1 from "../assets/slides/banner1.png";
+import Slide2 from "../assets/slides/banner2.png";
+import Slide3 from "../assets/slides/banner3.png";
+import Slide4 from "../assets/slides/banner4.png";
 
 export function Slider() {
     return (
