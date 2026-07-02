@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.our-menu {
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+
+    padding: 60px 100px;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #f9f6f2 0%,
+            #f8f1e8 20%,
+            #f7e9dd 50%,
+            #f8f1e8 75%,
+            #f7e1c6 100%);
+}
+
+.menu {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.see-products {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: #5b2c1b;
+
+}
