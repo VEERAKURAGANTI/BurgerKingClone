@@ -6,6 +6,7 @@ import { MyProfile } from '../src/pages/MyProfile';
 import { Cart } from '../src/pages/Cart';
 import { Search } from '../src/pages/Search';
 import { SearchLocation } from '../src/pages/SearchLocation';
+import { ProdectList } from './pages/ProdectList';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/cart' element={<Cart />}></Route>
         <Route path='/search' element={<Search />}></Route>
         <Route path='/search-location' element={<SearchLocation />}></Route>
+        <Route path='/prodect-list' element={<ProdectList />}></Route>
       </Routes>
     </BrowserRouter>
   );

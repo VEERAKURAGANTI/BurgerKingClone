@@ -7,7 +7,7 @@ export function OurMenu() {
         <>
         <div className="our-menu">
          <div className="menu"><h2>our menu</h2></div>
-         <NavLink className="see-products" to=''>see all <img src={RightArrow} alt="right-arrow"/></NavLink>
+         <NavLink className="see-products" to='/prodect-list'>see all <img src={RightArrow} alt="right-arrow"/></NavLink>
          
         </div>
         </>
