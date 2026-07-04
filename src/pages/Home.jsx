@@ -3,6 +3,7 @@ import { Header } from '../componets/Header';
 import { Slider } from '../componets/Slider';
 import {OurMenu} from '../componets/OurMenu';
 import { SlideContainer } from '../componets/SlideContainer';
+import { ExploreWall } from '../componets/ExploreWall';
 export function Home() {
     return (
         <>
@@ -10,6 +11,7 @@ export function Home() {
             <Slider />
             <OurMenu />
             <SlideContainer />
+            <ExploreWall />
         </>
     );
 }

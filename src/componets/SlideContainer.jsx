@@ -78,6 +78,7 @@ export function SlideContainer() {
     return (
 
         <>
+        <div className="menu-section">
             <div className="menu-wrapper">
                 <button className="left-arrow" className={`left-arrow ${isAtStart ? "disabled" : ""}`}
                     onClick={scrollLeft}
@@ -93,6 +94,7 @@ export function SlideContainer() {
                 <button className="right-arrow" className={`right-arrow ${isAtEnd ? "disabled" : ""}`}
                     onClick={scrollRight}
                     disabled={isAtEnd}>&#10095;</button>
+            </div>
             </div>
         </>
     );
