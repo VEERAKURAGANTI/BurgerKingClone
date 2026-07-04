@@ -4,6 +4,7 @@ import { Slider } from '../componets/Slider';
 import {OurMenu} from '../componets/OurMenu';
 import { SlideContainer } from '../componets/SlideContainer';
 import { ExploreWall } from '../componets/ExploreWall';
+import { Fotter } from '../componets/Fotter';
 export function Home() {
     return (
         <>
@@ -12,6 +13,7 @@ export function Home() {
             <OurMenu />
             <SlideContainer />
             <ExploreWall />
+            <Fotter/>
         </>
     );
 }

@@ -7,7 +7,13 @@
     font-family: "BlockBerthold";
     src: url(./assets/BlockBertholdTextured.1c1d53ef.woff);
 }
+.html{
+    scroll-behavior: smooth;
+}
 body{
   font-family: BlockBerthold;
   background-color: #F8F6F3;
+}
+body::-webkit-scrollbar{
+    display: none;
 }

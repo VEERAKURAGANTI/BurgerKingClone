@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fotter-wrapper{
+    background-color: #323231;
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    color: #C1C1C1;
+}
+.fotter-top-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+}
+.info{
+    display: inline-block;
+}
+.title{
+    text-transform: uppercase;
+    font-size: larger;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+
+}
+.info ul li{
+    list-style: none;
+    line-height: 20px;
+    font-size: medium;
+}
+
