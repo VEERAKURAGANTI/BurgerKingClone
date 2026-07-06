@@ -72,19 +72,18 @@ export function Footer() {
                                 <img src={GoogStore} alt="play store" width="128" height="38" role="presentation" /></a>
                             </li>
                         </ul>
-
                     </div>
-
+                    
                 </div>
 
                 <div className='fotter_divider'><hr /></div>
-                <div className='fotter-buttom-section'>
-                    <div className='fotterbk logo'>
-                        <img src={BKLogo} alt="logo" width={50} height={50} />
-                    </div>
-                    <div className="footer__copyright">
-                        <p>TM &amp; © 2026 BURGER KING COMPANY LLC . All Rights Reserved.</p>
-                    </div>
+                     <div className='fotter-buttom-section'>
+                          <div className='fotterbk logo'>
+                               <img src={BKLogo} alt="logo" width={50} height={50} />
+                          </div>
+                          <div className="footer__copyright">
+                               <p>TM &amp; © 2026 BURGER KING COMPANY LLC . All Rights Reserved.</p>
+                         </div>
                     <div className='social media'>
                         <img src={Facebook} alt="facebook-logo" />
                         <img src={Instagram} alt="instagram-logo" />
@@ -92,8 +91,8 @@ export function Footer() {
                         <img src={YouTub} alt=" youtube-log" />
                     </div>
 
-
                 </div>
+                
             </div>
         </>
     );
