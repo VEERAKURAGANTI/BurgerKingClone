@@ -41,7 +41,7 @@ export function Header() {
                         <img src={cart} alt="cart-icon" /> CART
                     </NavLink>
                 </nav>
-
+                {/*search icon  */}
                 <NavLink className="search-icon" to="/search">
                     <img src={search} alt="search-icon" />
                 </NavLink>
