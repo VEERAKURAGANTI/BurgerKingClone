@@ -63,13 +63,12 @@ export function Footer() {
 
 
                     <div className='app-stores info'>
-
                         <div className='title'>Download our app</div>
                         <ul class="footer__list u_display_flex">
-                            <li class="footer__list-item u_cursor_pointer"><a href="https://apps.apple.com/us/app/burger-king-india/id1516627543" target="_blank" rel="noopener noreferrer">
+                            <li class="footer__list-item u_cursor_pointer"><a href="https://apps.apple.com/us/app/burger-king-india/id1516627543" target="_blank" >
                                 <img src={AppStore} alt="Apple store" width="128" height="38" role="presentation" /></a>
                             </li>
-                            <li class="u_cursor_pointer"><a href="https://play.google.com/store/apps/details?id=in.burgerking.android" target="_blank" rel="noopener noreferrer">
+                            <li class="u_cursor_pointer"><a href="https://play.google.com/store/apps/details?id=in.burgerking.android" target="_blank">
                                 <img src={GoogStore} alt="play store" width="128" height="38" role="presentation" /></a>
                             </li>
                         </ul>
