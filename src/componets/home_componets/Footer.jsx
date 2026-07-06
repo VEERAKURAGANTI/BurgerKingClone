@@ -17,10 +17,9 @@ export function Footer() {
             <div className='fotter-wrapper'>
 
                 <div className='fotter-top-section'>
+                    
                     <div className='bk info'>
-
                         <div className="title">BK<sup>®</sup>info</div>
-
                         <ul className="footer__list">
                             <li className="footer"><NavLink className='link'>About BK<sup>®</sup> </NavLink></li>
                             <li className="footer"><NavLink className='link'>Fresh Taste</NavLink></li>
@@ -28,7 +27,6 @@ export function Footer() {
                             <li className="footer"><NavLink className='link'>Fssai</NavLink> </li>
                         </ul>
                     </div>
-
 
                     <div className='contact info'>
                         <div className='title'>contact</div>
