@@ -26,6 +26,7 @@ export function Slider() {
                 <SwiperSlide className="swiper-slide"><img src={Slide2} alt="slide2"className="slides" /></SwiperSlide>
                 <SwiperSlide className="swiper-slide"><img src={Slide3} alt="slide3" className="slides"/></SwiperSlide>
                 <SwiperSlide className="swiper-slide"><img src={Slide4} alt="slide4" className="slides"/></SwiperSlide>
+             
             </Swiper>
         </>
     );
