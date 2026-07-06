@@ -9,7 +9,7 @@ import search from '../../assets/icons/search-icon.svg';
 import location from '../../assets/location.svg';
 
 import { Toggle } from '../home_componets/Toggle';
-
+// header componts
 export function Header() {
     return (
         <>
