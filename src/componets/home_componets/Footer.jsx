@@ -44,16 +44,13 @@ export function Footer() {
                     </div>
 
                     <div className='bk-cares info'>
-
                         <div className='title'>BK<sup>®</sup>cares</div>
-
                         <ul class="footer__list">
                             <li className='footer'> <a href="https://d1rgpf387mknul.cloudfront.net/1777895813pdfNI04May26pdf" target="_blank" className="u_text">Nutrition Information </a></li>
                             <li class="footer__item" role="presentation"> Creating Brighter Futures</li>
                             <li class="footer__item" role="presentation"> Trust &amp; Taste </li>
                             <li class="footer__item" role="presentation"> COVID-19 Safety </li>
                         </ul>
-
                     </div>
 
                     <div className='legal info'>
