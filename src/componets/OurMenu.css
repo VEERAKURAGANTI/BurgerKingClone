@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     cursor: default;
 
-    padding: 60px 100px;
+    padding: 40px 140px;
     height: 100px;
     width: 100%;
     background-image: linear-gradient(to bottom,#f9f6f2 0%,
@@ -20,9 +20,12 @@ body {
 }
 
 .menu {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: lighter;
+
     text-transform: uppercase;
+
+  
 }
 
 .see-products {

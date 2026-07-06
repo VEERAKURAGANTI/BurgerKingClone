@@ -1,4 +1,4 @@
-import './Fotter.css';
+import './Footer.css';
 
 import AppStore from '../assets/appStore.png';
 import GoogStore from '../assets/googleStore.png';
@@ -9,7 +9,9 @@ import Facebook from '../assets/facebook.svg';
 import Instagram from '../assets/instagram.svg';
 import Twitter from '../assets/twitter.svg';
 import YouTub from '../assets/youtube.svg';
-export function Fotter() {
+
+import { NavLink } from 'react-router-dom';
+export function Footer() {
     return (
         <>
             <div className='fotter-wrapper'>
@@ -19,24 +21,25 @@ export function Fotter() {
 
                         <div className="title">BK<sup>®</sup>info</div>
 
-                        <ul class="footer__list u_cursor_pointer">
-                            <li className="footer"> About BK<sup>® </sup> </li>
-                            <li class="footer" >Fresh Taste </li>
-                            <li class="footer">Investor Relations</li>
-                            <li class="footer"> Fssai</li>
+                        <ul className="footer__list">
+                            <li className="footer"><NavLink className='link'>About BK<sup>®</sup> </NavLink></li>
+                            <li className="footer"><NavLink className='link'>Fresh Taste</NavLink></li>
+                            <li className="footer"><NavLink className='link'>Investor Relations</NavLink></li>
+                            <li className="footer"><NavLink className='link'>Fssai</NavLink> </li>
                         </ul>
                     </div>
 
+
                     <div className='contact info'>
                         <div className='title'>contact</div>
-                        <ul class="footer__list u_cursor_pointer">
-                            <li class="footer__item" role="presentation"> FAQ's &amp; Support </li>
-                            <li class="footer__item"> Write to us : </li>
-                            <li><a class="footer__item-key u_text_decoration" href="mailto:careers@burgerking.in" rel="noopener noreferrer">Careers</a></li>
-                            <li><p class="footer__item-key u_text_decoration">Customer Care</p>
-                            </li><li><a class="footer__item-key u_text_decoration" href="mailto:scmsupport@burgerking.in" rel="noopener noreferrer"> Supply Chain Queries </a></li>
-                            <li><a class="footer__item-key u_text_decoration" href="mailto:investor@burgerking.in" rel="noopener noreferrer"> Investor Relations </a></li>
-                            <li><p class="footer__item-key u_text_decoration"> Franchising </p></li>
+                        <ul className="footer__list">
+                            <li className="footer"><NavLink className='link'>FAQ's &amp; Support</NavLink> </li>
+                            <li className="footer"> Write to us : </li>
+                            <li className="footer" ><a href="mailto:careers@burgerking.in">Careers</a></li>
+                            <li className="footer" ><p className="feedback form">Customer Care</p></li>
+                            <li className="footer"><a href="mailto:scmsupport@burgerking.in"> Supply Chain Queries </a></li>
+                            <li className="footer"><a href="mailto:investor@burgerking.in" > Investor Relations </a></li>
+                            <li class="footer"><NavLink className='link' > Franchising</NavLink></li>
                         </ul>
                     </div>
 
@@ -44,8 +47,8 @@ export function Fotter() {
 
                         <div className='title'>BK<sup>®</sup>cares</div>
 
-                        <ul class="footer__list u_cursor_pointer">
-                            <li> <a href="https://d1rgpf387mknul.cloudfront.net/1777895813pdfNI04May26pdf" rel="noopener noreferrer" target="_blank" class="u_text_decoration footer__item">Nutrition Information </a></li>
+                        <ul class="footer__list">
+                            <li className='footer'> <a href="https://d1rgpf387mknul.cloudfront.net/1777895813pdfNI04May26pdf" target="_blank" className="u_text">Nutrition Information </a></li>
                             <li class="footer__item" role="presentation"> Creating Brighter Futures</li>
                             <li class="footer__item" role="presentation"> Trust &amp; Taste </li>
                             <li class="footer__item" role="presentation"> COVID-19 Safety </li>

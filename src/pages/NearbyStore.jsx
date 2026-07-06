@@ -8,7 +8,6 @@ export function NearbyStore() {
             <div className="nearby-store">
                 <Header />
                 <SearchBar />
-                
             </div>
         </>
     );

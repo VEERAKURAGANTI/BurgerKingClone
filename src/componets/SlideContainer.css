@@ -5,11 +5,13 @@
   
 }
 .menu-section{
-     background-image: linear-gradient(to bottom, #f7e1c6 100%,#f9f6f2 0%,
+   
+     background-image: linear-gradient(to top,#f4eee7 1%,#F8F6F3 25%, #f7e1c6 100%,#f9f6f2 0%,
             #f9f6f2 10%,
             #f7f0eb 25%,
             #f8f1e8 0%,
-            #f7e1c6 0%);
+            #f5dba9 25%
+);
 }
 
 .menu-wrapper {
@@ -74,6 +76,8 @@
 .menu-card p {
     text-align: center;
     font-size: 20px;
+    padding: 10px;
+    line-height: 1.2rem;
 }
 .disabled {
     cursor: not-allowed;

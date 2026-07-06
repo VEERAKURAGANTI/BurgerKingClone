@@ -1,9 +1,8 @@
 .mySwiper {
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     max-height: 400px;
     overflow: hidden;
-
 }
 
 .slides {

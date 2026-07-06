@@ -1,19 +1,20 @@
 import './Home.css';
+
 import { Header } from '../componets/Header';
 import { Slider } from '../componets/Slider';
-import {OurMenu} from '../componets/OurMenu';
+import { OurMenu } from '../componets/OurMenu';
 import { SlideContainer } from '../componets/SlideContainer';
 import { ExploreWall } from '../componets/ExploreWall';
-import { Fotter } from '../componets/Fotter';
+import { Footer } from '../componets/Footer';
 export function Home() {
     return (
         <>
-            <Header />
+            <div className='header'> <Header /></div>
             <Slider />
             <OurMenu />
             <SlideContainer />
             <ExploreWall />
-            <Fotter/>
+            <Footer />
         </>
     );
 }
