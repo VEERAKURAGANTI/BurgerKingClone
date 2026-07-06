@@ -26,6 +26,7 @@ export function Header() {
                     </NavLink>
                 </div>
 
+                {/*pages link  */}
                 <nav className="nav-links">
                     <NavLink className="nav-pages" to="/nearby-store">
                         <img src={store} alt="store-icon" className="store" /> NEARBY STORE
