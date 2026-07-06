@@ -15,7 +15,6 @@ import MenuItem13 from "../../assets/menu-items/menu-item12.jpg";
 import MenuItem14 from "../../assets/menu-items/menu-item13.jpg";
 import MenuItem15 from "../../assets/menu-items/menu-item14.jpg";
 
-
 import './SlideContainer.css';
 import { useRef, useState, useEffect } from "react";
 
