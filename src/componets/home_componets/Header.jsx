@@ -1,13 +1,14 @@
 import "./Header.css";
-import logo from '../assets/logo.png';
+import logo from '../../assets/logo.png';
 import { NavLink } from 'react-router-dom';
-import store from '../assets/icons/store-icon.svg';
-import deals from '../assets/icons/deals-icon.svg';
-import user from '../assets/icons/user-icon.svg';
-import cart from '../assets/icons/cart-icon.svg';
-import search from '../assets/icons/search-icon.svg';
-import location from '../assets/location.svg';
-import { Toggle } from '../componets/Toggle'
+import store from '../../assets/icons/store-icon.svg';
+import deals from '../../assets/icons/deals-icon.svg';
+import user from '../../assets/icons/user-icon.svg';
+import cart from '../../assets/icons/cart-icon.svg';
+import search from '../../assets/icons/search-icon.svg';
+import location from '../../assets/location.svg';
+
+import { Toggle } from '../home_componets/Toggle';
 
 export function Header() {
     return (

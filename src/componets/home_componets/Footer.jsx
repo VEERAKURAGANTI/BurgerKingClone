@@ -1,14 +1,14 @@
 import './Footer.css';
 
-import AppStore from '../assets/appStore.png';
-import GoogStore from '../assets/googleStore.png';
+import AppStore from '../../assets/appStore.png';
+import GoogStore from '../../assets/googleStore.png';
 
-import BKLogo from '../assets/fotter_bk_logo.png';
+import BKLogo from '../../assets/fotter_bk_logo.png';
 
-import Facebook from '../assets/facebook.svg';
-import Instagram from '../assets/instagram.svg';
-import Twitter from '../assets/twitter.svg';
-import YouTub from '../assets/youtube.svg';
+import Facebook from '../../assets/facebook.svg';
+import Instagram from '../../assets/instagram.svg';
+import Twitter from '../../assets/twitter.svg';
+import YouTub from '../../assets/youtube.svg';
 
 import { NavLink } from 'react-router-dom';
 export function Footer() {

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import RightArrow from "../assets/right-arrow.svg";
+import RightArrow from "../../assets/right-arrow.svg";
 import './OurMenu.css';
 
 export function OurMenu() {

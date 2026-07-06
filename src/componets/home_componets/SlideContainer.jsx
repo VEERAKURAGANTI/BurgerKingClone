@@ -1,18 +1,18 @@
-import MenuItem1 from "../assets/menu-items/menu-item1.jpg";
-import MenuItem2 from "../assets/menu-items/menu-item2.jpg";
-import MenuItem3 from "../assets/menu-items/menu-item2.jpg";
-import MenuItem4 from "../assets/menu-items/menu-item3.jpg";
-import MenuItem5 from "../assets/menu-items/menu-item4.jpg";
-import MenuItem6 from "../assets/menu-items/menu-item5.jpg";
-import MenuItem7 from "../assets/menu-items/menu-item6.jpg";
-import MenuItem8 from "../assets/menu-items/menu-item7.jpg";
-import MenuItem9 from "../assets/menu-items/menu-item8.jpg";
-import MenuItem10 from "../assets/menu-items/menu-item9.jpg";
-import MenuItem11 from "../assets/menu-items/menu-item10.jpg";
-import MenuItem12 from "../assets/menu-items/menu-item11.jpg";
-import MenuItem13 from "../assets/menu-items/menu-item12.jpg";
-import MenuItem14 from "../assets/menu-items/menu-item13.jpg";
-import MenuItem15 from "../assets/menu-items/menu-item14.jpg";
+import MenuItem1 from "../../assets/menu-items/menu-item1.jpg";
+import MenuItem2 from "../../assets/menu-items/menu-item2.jpg";
+import MenuItem3 from "../../assets/menu-items/menu-item2.jpg";
+import MenuItem4 from "../../assets/menu-items/menu-item3.jpg";
+import MenuItem5 from "../../assets/menu-items/menu-item4.jpg";
+import MenuItem6 from "../../assets/menu-items/menu-item5.jpg";
+import MenuItem7 from "../../assets/menu-items/menu-item6.jpg";
+import MenuItem8 from "../../assets/menu-items/menu-item7.jpg";
+import MenuItem9 from "../../assets/menu-items/menu-item8.jpg";
+import MenuItem10 from "../../assets/menu-items/menu-item9.jpg";
+import MenuItem11 from "../../assets/menu-items/menu-item10.jpg";
+import MenuItem12 from "../../assets/menu-items/menu-item11.jpg";
+import MenuItem13 from "../../assets/menu-items/menu-item12.jpg";
+import MenuItem14 from "../../assets/menu-items/menu-item13.jpg";
+import MenuItem15 from "../../assets/menu-items/menu-item14.jpg";
 
 
 import './SlideContainer.css';

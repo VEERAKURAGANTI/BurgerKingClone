@@ -1,4 +1,4 @@
-import {Header} from '../componets/Header'
+import {Header} from '../componets/home_componets/Header'
 import './NearbyStore.css';
 
 import { SearchBar } from '../componets/nearby_componts/SearchBar';

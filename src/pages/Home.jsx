@@ -1,11 +1,11 @@
 import './Home.css';
 
-import { Header } from '../componets/Header';
-import { Slider } from '../componets/Slider';
-import { OurMenu } from '../componets/OurMenu';
-import { SlideContainer } from '../componets/SlideContainer';
-import { ExploreWall } from '../componets/ExploreWall';
-import { Footer } from '../componets/Footer';
+import { Header } from '../componets/home_componets/Header';
+import { Slider } from '../componets/home_componets/Slider';
+import { OurMenu } from '../componets/home_componets/OurMenu';
+import { SlideContainer } from '../componets/home_componets/SlideContainer';
+import { ExploreWall } from '../componets/home_componets/ExploreWall';
+import { Footer } from '../componets/home_componets/Footer';
 export function Home() {
     return (
         <>

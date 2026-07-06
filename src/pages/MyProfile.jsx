@@ -1,4 +1,4 @@
-import { Header } from "../componets/Header";
+import { Header } from "../componets/home_componets/Header";
 export function MyProfile(){
     return(
         <>

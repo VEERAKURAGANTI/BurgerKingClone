@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom' ;
-import ExploreWallImg from '../assets/exploreTheBKWall.jpg';
+import ExploreWallImg from '../../assets/exploreTheBKWall.jpg';
 
 import './ExploreWall.css'
 export function ExploreWall(){
