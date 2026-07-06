@@ -52,16 +52,13 @@ export function Footer() {
                     </div>
 
                     <div className='legal info'>
-
                         <div className='title'>legal</div>
-
                         <ul class="footer__list u_cursor_pointer">
                             <li class="footer__item" role="presentation"> Terms &amp; Conditions </li>
                             <li class="footer__item" role="presentation"> Privacy Policy </li>
                             <li class="footer__item" role="presentation"> Promotional T &amp; C </li>
                             <li class="footer__item" role="presentation"><a rel="noopener noreferrer" target="_blank" href="/pdf-viewer?url=https%3A%2F%2Fd1rgpf387mknul.cloudfront.net%2Fcompliance%2Fform_5a_epfo.pdf"> Compliance </a></li>
                         </ul>
-
                     </div>
 
 
