@@ -67,6 +67,7 @@ export function SlideContainer() {
         });
         setTimeout(checkScrollPosition, 350);
     }
+    
     const scrollRight = () => {
         sliderRef.current.scrollBy({
             left: 700,
@@ -94,7 +95,7 @@ export function SlideContainer() {
                 <button className="right-arrow" className={`right-arrow ${isAtEnd ? "disabled" : ""}`}
                     onClick={scrollRight}
                     disabled={isAtEnd}>&#10095;</button>
-            </div>
+               </div>
             </div>
         </>
     );
