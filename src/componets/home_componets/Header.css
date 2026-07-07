@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "myfont";
+    src: url(../../assets/Flame-Bold.otf);
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -37,8 +41,8 @@
     align-items: center;
     position: relative;
     text-decoration: none;
-
 }
+
 .search-location{
     width: 300px;
     height: 40px;
@@ -62,11 +66,14 @@
 .nav-links{
     display: flex;
     align-items: center;
+    font-family: myfont;
+    font-weight: 400;
     gap: 25px;
+
 }
 .nav-pages{
     text-decoration: none;
-    font-size: 20px;
+  
     color: #999999;
 }
 .nav-pages:active{

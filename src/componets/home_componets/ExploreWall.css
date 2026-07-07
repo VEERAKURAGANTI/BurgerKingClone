@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'MyFont';
-    src: url("../assets/BlockBertholdTextured.1c1d53ef.woff");
+    src: url(../../assets/Flame-Regular.otf);
 }
 .menu-btn{
     display: block;

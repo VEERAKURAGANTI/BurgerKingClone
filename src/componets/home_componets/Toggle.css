@@ -2,11 +2,21 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  
+
+}
+@font-face {
+  font-family: "fontBold";
+  src: url(../../assets/Flame-Bold.otf);
 }
 
 .label {
-  font-size: 20px;
+  font-size: 1rem;
+  font-weight:400;
+  letter-spacing: .5px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-family: fontBold;
   transition: color 0.3s;
 }
 
@@ -22,7 +32,7 @@
   position: relative;
   width: 40px;
   height: 23px;
-  background-color: #5b2c1b;
+  background-color: #6F3C2F;
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s;

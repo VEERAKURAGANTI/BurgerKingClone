@@ -90,12 +90,14 @@ export function RestaurantCard() {
                                 <p>{restaurant.name}</p>
                                 <p>{restaurant.time}</p>
                                 <p>{restaurant.description}</p>
-                                <p className={restaurant.restaurantStatus ? 'open' : 'closed'}>{restaurant.restaurantStatus==true?'Open Now':'Closed'}</p>
+                                <p className={restaurant.restaurantStatus ? 'open' : 'closed'}>{restaurant.restaurantStatus == true ? 'Open Now' : 'Closed'}</p>
                                 <p>{restaurant.range}</p>
                             </div>
                             <div className='icons'>
-                                <img src={CallIcon} alt="call-icon" />
-                                <img src={DirectionLocation} alt="direction-icon" />
+
+                                <div className='icon'><img src={CallIcon} alt="call-icon" /></div>
+                                <div className='icon'> <img src={DirectionLocation} alt="direction-icon"/></div>
+
                             </div>
                         </div>
                     ))}

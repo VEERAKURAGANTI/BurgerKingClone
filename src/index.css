@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: "BlockBerthold";
-    src: url(./assets/BlockBertholdTextured.1c1d53ef.woff);
+    font-family: "BlockRegular";
+    src: url(./assets/Flame-Regular.otf);
 }
 .html{
     scroll-behavior: smooth;
@@ -16,4 +16,8 @@ body{
 }
 body::-webkit-scrollbar{
     display: none;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
