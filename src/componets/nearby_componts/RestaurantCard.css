@@ -2,25 +2,79 @@
     font-family: "Flem-regular";
     src: url(../../assets/Flame-Regular.otf);
 }
-
 .restaurant-card {
     margin-top: 140px;
 
 }
-
 .card{
     background-color: #FFFF;
     border-radius: 5px;
     margin:20px 60px;
-    padding: 20px;
+    padding:15px 30px;
 
     box-shadow: 0px 0px 2px 0px rgb(187, 181, 181);
+
     display: flex;
     flex-direction: column;
 }
 .top-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;   /* put details and icons side by side */
     justify-content: space-between;
+    align-items: flex-start; /* keeps them aligned at the top */
    
+}
+.bottom-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.details{
+    line-height: 30px;
+}
+.details p:nth-child(1){
+    font-family: Flem-regular;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFF;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 1px rgb(226, 224, 224);
+
+}
+hr{
+   border: none;
+   border-top: 2px solid rgb(229, 225, 225);
+   margin:15px 0px;
+}
+.open{
+    color: #71BA00;
+    font-family: Flem-regular;
+}
+.closed{
+    color: red;
+     font-family: Flem-regular;
+}
+.service{
+    color: #6F3C2F;
+    font-family: Flem-regular;
+    font-size: smaller;
+    padding: 5px;
+}
+.service img{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
 }

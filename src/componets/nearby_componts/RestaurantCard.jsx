@@ -134,8 +134,9 @@ export function RestaurantCard() {
                                     <div className='icon'> <img src={DirectionLocation} alt="direction-icon" /></div>
                                 </div>
                             </div>
+                            <hr />
                             <div className='bottom-section'>
-                                <hr />
+                               
                                 {restaurant.takeaway && (
                                     <div className="service">
                                         <img src={Takeaway} alt="takeaway" />
