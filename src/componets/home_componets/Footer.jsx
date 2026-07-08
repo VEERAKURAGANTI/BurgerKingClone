@@ -17,7 +17,6 @@ export function Footer() {
             <div className='fotter-wrapper'>
 
                 <div className='fotter-top-section'>
-                    
                     <div className='bk info'>
                         <div className="title">BK<sup>®</sup>info</div>
                         <ul className="footer__list">
@@ -90,7 +89,6 @@ export function Footer() {
                         <img src={Twitter} alt="twitter-logo" />
                         <img src={YouTub} alt=" youtube-log" />
                     </div>
-
                 </div>
                 
             </div>
