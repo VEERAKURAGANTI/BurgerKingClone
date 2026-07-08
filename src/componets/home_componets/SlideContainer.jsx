@@ -67,7 +67,7 @@ export function SlideContainer() {
         });
         setTimeout(checkScrollPosition, 350);
     }
-    
+
     const scrollRight = () => {
         sliderRef.current.scrollBy({
             left: 700,
@@ -79,23 +79,26 @@ export function SlideContainer() {
     return (
 
         <>
-        <div className="menu-section">
-            <div className="menu-wrapper">
-                <button className="left-arrow" className={`left-arrow ${isAtStart ? "disabled" : ""}`}
-                    onClick={scrollLeft}
-                    disabled={isAtStart}>&#10094;</button>
-                <div className="menu-container" ref={sliderRef} onScroll={checkScrollPosition}>
-                    {menuItems.map((item, index) => (
-                        <div className="menu-card" key={index}>
-                            <img src={item.image} alt={item.title} />
-                            <p>{item.title}</p>
-                        </div>
-                    ))}
+            <div className="menu-section">
+                <div className="menu-wrapper">
+                    <button className="left-arrow" className={`left-arrow ${isAtStart ? "disabled" : ""}`}
+                        onClick={scrollLeft}
+                        disabled={isAtStart}>&#10094;</button>
+                    <div className="menu-container" ref={sliderRef} onScroll={checkScrollPosition}>
+                        {menuItems.map((item, index) => (
+                            <div className="menu-card" key={index}>
+                                <img src={item.image} alt={item.title} />
+                                <p>{item.title}</p>
+                            </div>
+                        ))}
+                    </div>
+                    <button
+                        className="right-arrow" className={`right-arrow ${isAtEnd ? "disabled" : ""}`}
+                        onClick={scrollRight}
+                        disabled={isAtEnd}>
+                        &#10095;
+                    </button>
                 </div>
-                <button className="right-arrow" className={`right-arrow ${isAtEnd ? "disabled" : ""}`}
-                    onClick={scrollRight}
-                    disabled={isAtEnd}>&#10095;</button>
-               </div>
             </div>
         </>
     );
