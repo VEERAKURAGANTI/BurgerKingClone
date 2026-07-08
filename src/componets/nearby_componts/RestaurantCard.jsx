@@ -85,24 +85,26 @@ export function RestaurantCard() {
             <div className='restaurant-card'>
                 <div className='restaurant-details'>
                     {restaurantDetails.map((restaurant, index) => (
-                        <div className='card'>
-                            <div className='deatails' key={index}>
-                                <p>{restaurant.name}</p>
-                                <p>{restaurant.time}</p>
-                                <p>{restaurant.description}</p>
-                                <p className={restaurant.restaurantStatus ? 'open' : 'closed'}>{restaurant.restaurantStatus == true ? 'Open Now' : 'Closed'}</p>
-                                <p>{restaurant.range}</p>
+                        <div className='card-container'>
+                            <div className='card' key={index}>
+                                <div className='details' >
+                                    <p>{restaurant.name}</p>
+                                    <p>{restaurant.time}</p>
+                                    <p>{restaurant.description}</p>
+                                    <p className={restaurant.restaurantStatus ? 'open' : 'closed'}>{restaurant.restaurantStatus == true ? 'Open Now' : 'Closed'}</p>
+                                    <p>{restaurant.range}</p>
+                                </div>
+                                <div className='icons'>
+                                    <div className='icon'><img src={CallIcon} alt="call-icon" /></div>
+                                    <div className='icon'> <img src={DirectionLocation} alt="direction-icon" /></div>
+                                </div>
+                               <div className="divider"></div>
                             </div>
-                            <div className='icons'>
 
-                                <div className='icon'><img src={CallIcon} alt="call-icon" /></div>
-                                <div className='icon'> <img src={DirectionLocation} alt="direction-icon"/></div>
-
-                            </div>
                         </div>
                     ))}
-
                 </div>
+
             </div>
         </>
 
