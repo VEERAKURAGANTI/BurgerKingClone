@@ -18,7 +18,7 @@ export function Slider() {
                 modules={[Autoplay, Navigation, Pagination]}
                 autoplay={{ delay: 3000, disableOnInteraction: false }}
                 loop={true}
-                navigation={false} 
+                navigation={false} // optional: enable navigation arrows
                 pagination={{ clickable: true }}
                 className="mySwiper"
             >
