@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import RightArrow from "../../assets/right-arrow.svg";
 import './OurMenu.css';
-
+//menu componets
 export function OurMenu() {
     return(
         <>
