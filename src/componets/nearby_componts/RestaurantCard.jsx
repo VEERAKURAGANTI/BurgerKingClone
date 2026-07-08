@@ -1,6 +1,9 @@
 import './RestaurantCard.css';
 import CallIcon from '../../assets/icons/call-icon.svg';
 import DirectionLocation from '../../assets/icons/location-direction.svg';
+import Takeaway from '../../assets/icons/take-away.svg';
+import Dinein from '../../assets/icons/dine-in-br.svg';
+import Delivery from '../../assets/icons/delivery.svg';
 
 
 
@@ -11,70 +14,102 @@ const restaurantDetails = [
         time: 'Store Timing (11.00 AM-11.00 PM)',
         description: 'GROUND & FIRST FLOOR, DOOR NO. 59A-1-3, POSTAL COLONY, ADJ. LEPLCON MALL, PATAMATA, VIJAYAWADA, West Godavari, Andhra Pradesh-520007',
         restaurantStatus: false,
-        range: '0 km away · 0 mins'
+        range: '0 km away · 0 mins',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'MG Road, Vijayawada',
         time: 'Store Timing (10.00 AM-10.00 PM)',
         description: 'MG ROAD, BESIDE TRENDSET MALL, VIJAYAWADA, Andhra Pradesh-520010',
         restaurantStatus: true,
-        range: '2 km away · 5 mins'
+        range: '2 km away · 5 mins',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'Benz Circle, Vijayawada',
         time: 'Store Timing (11.00 AM-11.00 PM)',
         description: 'BENZ CIRCLE, NEAR NTR STATUE, VIJAYAWADA, Andhra Pradesh-520008',
         restaurantStatus: true,
-        range: '3 km away · 8 mins'
+        range: '3 km away · 8 mins',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
+
     },
     {
         name: 'Guntur City Center',
         time: 'Store Timing (12.00 PM-11.00 PM)',
         description: 'CITY CENTER MALL, BRODIPET, GUNTUR, Andhra Pradesh-522002',
         restaurantStatus: false,
-        range: '35 km away · 45 mins'
+        range: '35 km away · 45 mins',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
+
     },
     {
         name: 'Tenali Main Road',
         time: 'Store Timing (11.00 AM-10.00 PM)',
         description: 'TENALI MAIN ROAD, NEAR RTC COMPLEX, TENALI, Andhra Pradesh-522201',
         restaurantStatus: true,
-        range: '5 km away · 12 mins'
+        range: '5 km away · 12 mins',
+        delivery: true,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'Eluru Market Street',
         time: 'Store Timing (10.30 AM-10.30 PM)',
         description: 'MARKET STREET, ELURU, West Godavari, Andhra Pradesh-534001',
         restaurantStatus: false,
-        range: '60 km away · 1 hr 20 mins'
+        range: '60 km away · 1 hr 20 mins',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'Rajahmundry Mall',
         time: 'Store Timing (11.00 AM-11.00 PM)',
         description: 'MAIN ROAD, NEAR RAILWAY STATION, RAJAHMUNDRY, Andhra Pradesh-533101',
         restaurantStatus: true,
-        range: '120 km away · 2 hrs'
+        range: '120 km away · 2 hrs',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'Kakinada Beach Road',
         time: 'Store Timing (12.00 PM-11.00 PM)',
         description: 'BEACH ROAD, KAKINADA, East Godavari, Andhra Pradesh-533002',
         restaurantStatus: false,
-        range: '150 km away · 2 hrs 30 mins'
+        range: '150 km away · 2 hrs 30 mins',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'Ongole Center',
         time: 'Store Timing (11.00 AM-10.00 PM)',
         description: 'NEAR RTC BUS STAND, ONGOLU, Andhra Pradesh-523001',
         restaurantStatus: true,
-        range: '180 km away · 3 hrs'
+        range: '180 km away · 3 hrs',
+        delivery: false,
+        takeaway: true,
+        dineIn: true,
     },
     {
         name: 'Nellore Highway',
         time: 'Store Timing (10.00 AM-11.00 PM)',
         description: 'NH16 HIGHWAY, NEAR KVR PETROL BUNK, NELLORE, Andhra Pradesh-524001',
         restaurantStatus: true,
-        range: '300 km away · 5 hrs'
+        range: '300 km away · 5 hrs',
+        delivery: true,
+        takeaway: true,
+        dineIn: true,
     }
 ];
 
@@ -85,8 +120,8 @@ export function RestaurantCard() {
             <div className='restaurant-card'>
                 <div className='restaurant-details'>
                     {restaurantDetails.map((restaurant, index) => (
-                        <div className='card-container'>
-                            <div className='card' key={index}>
+                        <div className='card' key={index}>
+                            <div className='top-section'>
                                 <div className='details' >
                                     <p>{restaurant.name}</p>
                                     <p>{restaurant.time}</p>
@@ -98,10 +133,33 @@ export function RestaurantCard() {
                                     <div className='icon'><img src={CallIcon} alt="call-icon" /></div>
                                     <div className='icon'> <img src={DirectionLocation} alt="direction-icon" /></div>
                                 </div>
-                               <div className="divider"></div>
+                            </div>
+                            <div className='bottom-section'>
+                                <hr />
+                                {restaurant.takeaway && (
+                                    <div className="service">
+                                        <img src={Takeaway} alt="takeaway" />
+                                        Takeaway
+                                    </div>
+                                )}
+
+                                {restaurant.dineIn && (
+                                    <div className="service">
+                                        <img src={Dinein} alt="dine-in" />
+                                        Dine-in
+                                    </div>
+                                )}
+
+                                {restaurant.delivery && (
+                                    <div className="service">
+                                        <img src={Delivery} alt="delivry" />
+                                        Delivery
+                                    </div>
+                                )}
                             </div>
 
                         </div>
+
                     ))}
                 </div>
 
