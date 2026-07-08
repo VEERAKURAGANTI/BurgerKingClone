@@ -12,11 +12,13 @@ import userActive from '../../assets/icons/login-icon.svg';
 
 import cart from '../../assets/icons/cart-icon.svg';
 import cartActive from '../../assets/icons/cart-active.svg';
+
 import search from '../../assets/icons/search-icon.svg';
 import location from '../../assets/location.svg';
 
 import { Toggle } from '../home_componets/Toggle';
 
+//header
 export function Header() {
     return (
         <>
