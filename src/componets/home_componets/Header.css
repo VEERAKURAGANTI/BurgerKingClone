@@ -76,9 +76,20 @@
   
     color: #999999;
 }
-.nav-pages:active{
+/* .nav-pages:active{
     color: #6F3C2F;
-}
+} */
 .search-icon{
     margin-right: 95px;
+}
+.active-link {
+  color: #6F3C2F;   /* highlight color */
+}
+.nav-pages img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.active-link img {
+  filter: none; /* restores full color */
 }
