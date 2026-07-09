@@ -1,9 +1,10 @@
 import { Header } from "../componets/home_componets/Header";
-export function KingDeals(){
-    return(
+import { OfferDeader } from "../componets/deals_componets/OfferHeader";
+export function KingDeals() {
+    return (
         <>
-            <Header />
-            <h1>King Deals</h1>
+            <div className="header"><Header /></div>        
+            <OfferDeader />
         </>
     );
 }
